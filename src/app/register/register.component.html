@@ -1,0 +1,80 @@
+<app-navbar></app-navbar>
+<div class="modal show" id="loginModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="text-center text-primary">注册</h1>
+      </div>
+      <div class="modal-body">
+        <form class="form col-md-12 center-block" id="loginForm" action="main/successLogin.do" method="post">
+          <div class="form-group-lg" id="accountDiv">
+            <label class="sr-only" for="inputAccount">账号</label>
+            <div class="input-group">
+              <div class="input-group-addon"><span class="glyphicon glyphicon-user" aria-hidden="true"></span></div>
+              <input class="form-control" id="inputAccount" name="accountNo" type="text" placeholder="账号" required
+                     autofocus>
+            </div>
+            <div class="hidden text-center" id="accountMsg"><span class="glyphicon glyphicon-exclamation-sign"></span>用户名不存在
+            </div>
+          </div>
+          <br>
+          <div class="form-group-lg" id="pwdDiv">
+            <label class="sr-only" for="inputPassword">密码</label>
+            <div class="input-group">
+              <div class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></div>
+              <input class="form-control" id="inputPassword" name="pwd" type="password" placeholder="密码" required>
+              <div class="input-group-addon"><span class="glyphicon glyphicon-eye-open"></span></div>
+            </div>
+            <div class="hidden text-center" id="pwdMsg"><span class="glyphicon glyphicon-exclamation-sign"></span>用户名密码错误
+            </div>
+          </div>
+
+          <div class="form-group-lg regbtn" id="pwdDiv1">
+            <label class="sr-only" for="inputPassword">确认密码</label>
+            <div class="input-group">
+              <div class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></div>
+              <input class="form-control" id="inputPassword1" name="pwd" type="password" placeholder="确认密码" required>
+              <div class="input-group-addon"><span class="glyphicon glyphicon-eye-open"></span></div>
+            </div>
+            <div class="hidden text-center" id="pwdMsg1"><span class="glyphicon glyphicon-exclamation-sign"></span>用户名密码错误
+            </div>
+          </div>
+
+          <div class="form-group-lg regbtn">
+            <label class="sr-only" for="inputAccount">Email</label>
+            <div class="input-group">
+              <div class="input-group-addon"><span class="input-group-addon">@</span></div>
+              <input class="form-control" name="accountNo" type="text" placeholder="Email" required
+                     autofocus>
+            </div>
+            <div class="hidden text-center"><span class="glyphicon glyphicon-exclamation-sign"></span>Email。。。。
+            </div>
+          </div>
+
+          <div class="form-group-lg regbtn">
+            <label class="sr-only" for="inputAccount">手机号</label>
+            <div class="input-group">
+              <div class="input-group-addon"><span class="glyphicon glyphicon-user" aria-hidden="true"></span></div>
+              <input class="form-control" name="accountNo" type="text" placeholder="手机号" required
+                     autofocus>
+            </div>
+            <div class="hidden text-center"><span class="glyphicon glyphicon-exclamation-sign"></span>手机号不存在
+            </div>
+          </div>
+          <div class="form-group text-center regbtn">
+            <button class="btn btn-default btn-lg col-md-6" id="btn_register" type="submit">注册</button>
+            <button class="btn btn-primary btn-lg col-md-6" id="btn_login" type="button">登录</button>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <img style="margin-top: 10px" src="http://www.tech-trans.com.cn/resource/root/tpl/101/images/logo1.png">
+      </div>
+    </div>
+  </div>
+</div>
+<app-company-info></app-company-info>
+
+<app-contact></app-contact>
+
+<app-sildebar></app-sildebar>

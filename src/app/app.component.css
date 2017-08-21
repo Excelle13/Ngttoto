@@ -1,0 +1,9 @@
+.slidbar {
+  position: fixed;
+  z-index: 100;
+  right: 35px;
+  top: 50%;
+  margin-top: -145px;
+  width: 56px;
+  border:1px solid darkblue;
+}

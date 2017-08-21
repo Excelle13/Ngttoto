@@ -1,0 +1,70 @@
+.contact {
+  position: fixed;
+  z-index: 100000;
+  right: 35px;
+  top: 75%;
+  margin-top: -145px;
+  width: 56px;
+
+}
+
+.contact div:hover {
+  background: darkgray;
+}
+
+.contact div {
+  width: 56px;
+  height: 56px;
+  padding: 10px;
+  cursor: pointer;
+  margin: 3px;
+}
+
+
+#wechat{
+  position: fixed;
+  z-index:10001;
+  right: 114px;
+  top: 75%;
+  margin-top: -121px;
+}
+#wechat img{
+width: 100px;
+}
+#wechat div{
+  float: left;
+  border:1px solid gainsboro;
+  background: ghostwhite;
+
+}
+#mobile{
+  position: fixed;
+  z-index: 10001;
+  right: 92px;
+  top: 75%;
+  margin-top: 36px;
+  background: #1167a9;
+  width: 177px;
+  height: 56px;
+  color: white;
+
+}
+#mobile .consult{
+  width: 46px;
+  height: 20px;
+  font-size: 18px;
+  float: left;
+  text-align: center;
+  margin:2px;
+}
+
+#mobile span{
+  line-height: 56px;
+  font-size: 16px;
+  float: left;
+}
+
+
+
+
+

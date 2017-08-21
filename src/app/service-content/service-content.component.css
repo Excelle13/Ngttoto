@@ -1,0 +1,25 @@
+.serviceContent{
+border: 1px solid darkgray;
+  margin-top: 34px;
+}
+.container{
+  margin-top: 68px;
+}
+#h3{
+  margin-bottom: 34px;
+  margin-top: 7px;
+  height: 30px;
+}
+#h3 img{
+  float: left;
+}
+#h3 strong{
+  float: left;
+}
+.table-bordered{
+  margin:18px;
+  border-color: darkgoldenrod ;
+}
+fieldset{
+  margin:10px;
+}

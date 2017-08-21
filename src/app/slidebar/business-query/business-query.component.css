@@ -1,0 +1,26 @@
+.container {
+  margin-top: 67px;
+}
+
+.quest_header {
+  border-bottom: 1px solid grey;
+  padding:5px;
+
+}
+
+.quest_header_title {
+  border-bottom: 2px solid darkred;
+  line-height:35px;
+  color: darkgray;
+  font-size: 18px;
+  margin-bottom: 2px;
+  color: darkred;
+  width:79px;
+  margin:5px;
+  display: inline-block;
+
+}
+
+.quest_search {
+  margin:5px;
+}

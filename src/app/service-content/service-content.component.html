@@ -1,0 +1,39 @@
+<app-topbar></app-topbar>
+<div class="container">
+  <button (click)="goback()" class="btn btn-default btn-lg">返回</button>
+
+  <div class=" text-center  img-rounded">
+    <legend><h3><strong>{{serviceName}}</strong></h3></legend>
+  </div>
+
+  <div class="table-bordered img-rounded" *ngFor="let serviceContent of serviceContents">
+    <fieldset >
+
+        <p id="h3"><img width="40" height="40" class="img-responsive" src="{{serviceContent.serviceImg}}"><strong><h4>{{serviceContent.serviceName}}</h4></strong></p>
+
+      <div class="serviceContent img-rounded">
+        <blockquote>
+          <p><strong>主要功能:</strong>{{serviceContent.serviceFunc}} <a href="">更多<span
+            class="glyphicon glyphicon-chevron-down"></span></a></p>
+          <nav aria-label="...">
+            <ul class="pager">
+              <li><a href="#">申请开通</a></li>
+              <li class="disabled"><a href="#">查看已开通</a></li>
+            </ul>
+          </nav>
+          <details>
+            <summary>具体操作</summary>
+            <!--<p><img class=" img-responsive " src="{{serviceContent.serviceImg}}" alt=""></p>-->
+            <p> 客户只需关联您的银行卡,无需网银,付款时输入支付宝支付密码和手机校验码即可轻松完成付款</p>
+            <img class="img-responsive center-block"
+                 src="http://ttoto.net/portalweb/resourse/image/weixin-default-1.png" alt="">
+            <img class="img-responsive center-block"
+                 src="http://ttoto.net/portalweb/resourse/image/zhifubao-dafualt-1.png" alt="">
+          </details>
+        </blockquote>
+      </div>
+    </fieldset>
+  </div>
+</div>
+<app-tips></app-tips>
+<app-contact></app-contact>
